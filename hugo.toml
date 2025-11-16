@@ -1,7 +1,7 @@
 baseURL = "https://lxyblog.dpdns.org/" # 确保这里使用你的最终域名
 languageCode = "zh-cn"
-title = "LLLXY 的数字花园" # 你的博客名称
-theme = "ananke" # 主题名
+title = "LLLXY 的Blog" # 你的博客名称
+theme = "stack" # 主题名
 
 [params]
   description = "记录个人学习、分享编程知识和生活思考的博客。" # 博客的简短描述，非常重要！

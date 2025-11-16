@@ -1,6 +1,6 @@
 #git指令
 git add .
-git commit -m "caption"
+git commit -m "new theme"
 git push blog main
 
 #主题
