@@ -1,0 +1,9 @@
+#git指令
+git add .
+git commit -m "caption"
+git push blog main
+
+#主题
+git submodule add https://github.com/主题作者/新主题名.git themes/新主题名
+https://themes.gohugo.io/
+hugo server --themesDir themes --source themes/新主题名/exampleSite   #预览
