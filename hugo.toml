@@ -5,7 +5,14 @@ theme = "stack" # 主题名
 
 [params]
   description = "记录个人学习、分享编程知识和生活思考的博客。" # 博客的简短描述，非常重要！
+  social:
+    GitHub: "https://github.com/LLLXY599/blog"
+    X: "https://x.com/您的用户名" 
+    Email: "992956596@example.com"
 
 [author]
 name = "xianyue Liu"
 homepage = "https://lxyblog.dpdns.org/"
+image: "lxy.png" 
+headline: "我是一个大帅哥"
+bio: "您的详细个人简介，支持 Markdown 格式"
