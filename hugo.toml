@@ -1,6 +1,6 @@
 baseURL = "https://lxyblog.dpdns.org/" # 确保这里使用你的最终域名
 languageCode = "zh-cn"
-title = "xianyue Liu" # 你的博客名称
+title = "茉莉智元" # 你的博客名称
 theme = "stack" # 主题名
 
 [params]
@@ -8,5 +8,5 @@ theme = "stack" # 主题名
 
 
 [author]
-name = "xianyue Liu"
+name = "茉莉智元"
 homepage = "https://lxyblog.dpdns.org/"
