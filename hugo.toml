@@ -14,4 +14,4 @@ homepage = "https://lxyblog.dpdns.org/"
 enabled = true
 local = true
 # 确保这里的路径和你放置的图片路径一致，假设放在 static/img/
-src = "./stack/moli.png"
+src = "E:\Blog\Hugo\MyBlog\my-blog\static\moli.png"
