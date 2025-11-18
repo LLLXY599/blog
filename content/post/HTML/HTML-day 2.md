@@ -3,7 +3,7 @@ title: "HTML-day2"
 date: 2025-11-18T12:00:00+08:00
 # 这一行必须是 false，并且不能有引号！
 draft: false 
-description: "这是我第二天学习HTML。"
+summary: "这是我第二天学习HTML。"
 ---
 
 大概内容：
