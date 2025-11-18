@@ -2,17 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2025-11-16T12:00:00+08:00</lastmod>
+    <loc>https://lxyblog.dpdns.org/post/html/html-day-1/</loc>
+    <lastmod>2025-11-18T00:09:32+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/</loc>
-    <lastmod>2025-11-16T12:00:00+08:00</lastmod>
+    <loc>https://lxyblog.dpdns.org/post/</loc>
+    <lastmod>2025-11-18T18:50:27+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/my_fist_post/</loc>
-    <lastmod>2025-11-16T12:00:00+08:00</lastmod>
+    <loc>https://lxyblog.dpdns.org/</loc>
+    <lastmod>2025-11-18T18:50:27+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://lxyblog.dpdns.org/post/first/my_fist_post/</loc>
+    <lastmod>2025-11-16T16:27:22+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://lxyblog.dpdns.org/post/second/second/</loc>
+    <lastmod>2025-11-18T00:34:30+08:00</lastmod>
+  </url><url>
+    <loc>https://lxyblog.dpdns.org/post/html/html-day-2/</loc>
+    <lastmod>2025-11-18T18:50:27+08:00</lastmod>
+  </url><url>
+    <loc>https://lxyblog.dpdns.org/categories/</loc>
+  </url><url>
+    <loc>https://lxyblog.dpdns.org/tags/</loc>
   </url>
 </urlset>
