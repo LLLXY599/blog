@@ -88,3 +88,7 @@ summary: "这是我第二天学习HTML。"
 	
 
 # （五）、自己找一个网站做综合案例
+
+
+请关注公众号获取更多信息！！！
+![alt text](../../../assets/img/wechat.jpg)
