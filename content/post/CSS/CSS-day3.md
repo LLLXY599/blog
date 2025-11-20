@@ -11,6 +11,7 @@ summary: "这是我第一天学习CSS。"
 <br>
 <hr>
 <!--more-->
+
 # （一）、层叠样式表-初体验（美化HTML）
 	html文件中加选择器，例如
 		<head>
@@ -109,4 +110,5 @@ summary: "这是我第一天学习CSS。"
 ## 综合案例--新闻详情
 
 请关注公众号获取更多信息！！！
-![alt text](../../../assets/img/wechat.jpg)
+![alt text](./wechat.jpg)
+<img src="./wechat.jpg" alt="微信公众号：茉莉智元" width="200" height="200">

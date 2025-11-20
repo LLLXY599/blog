@@ -10,7 +10,7 @@
     <link rel="stylesheet" href='https://lxyblog.dpdns.org/css/light.css' />
     <link rel="stylesheet" href='https://lxyblog.dpdns.org/css/dark.css' />
     <link rel="stylesheet" href='https://lxyblog.dpdns.org/css/syntax.css' />
-    <title>HTML-day2 - 茉莉智元</title>
+    <title>CSS-day4 - 茉莉智元</title>
     
     <link rel="icon" type="image/x-icon" href='/images/github-mark.png'>
     
@@ -21,17 +21,17 @@
 
     
     <meta name="description"
-  content="大概内容： 列表、标签语法、综合案例 " />
+  content="大概内容： 层复合选择器、CSS特性、背景属性、显示模式 " />
 <meta name="keywords"
   content='blog, google analytics' />
 <meta name="robots" content="noodp" />
-<link rel="canonical" href="https://lxyblog.dpdns.org/post/html/html-day-2/" />
+<link rel="canonical" href="https://lxyblog.dpdns.org/post/css/css-day4/" />
 
 
 <meta name="twitter:card" content="summary" />
-<meta name="twitter:title" content="HTML-day2 - 茉莉智元" />
+<meta name="twitter:title" content="CSS-day4 - 茉莉智元" />
 <meta name="twitter:description"
-  content="大概内容： 列表、标签语法、综合案例 " />
+  content="大概内容： 层复合选择器、CSS特性、背景属性、显示模式 " />
 <meta name="twitter:site" content="https://lxyblog.dpdns.org/" />
 <meta name="twitter:creator" content="" />
 <meta name="twitter:image"
@@ -39,17 +39,17 @@
 
 
 <meta property="og:type" content="article" />
-<meta property="og:title" content="HTML-day2 - 茉莉智元">
+<meta property="og:title" content="CSS-day4 - 茉莉智元">
 <meta property="og:description"
-  content="大概内容： 列表、标签语法、综合案例 " />
-<meta property="og:url" content="https://lxyblog.dpdns.org/post/html/html-day-2/" />
-<meta property="og:site_name" content="HTML-day2" />
+  content="大概内容： 层复合选择器、CSS特性、背景属性、显示模式 " />
+<meta property="og:url" content="https://lxyblog.dpdns.org/post/css/css-day4/" />
+<meta property="og:site_name" content="CSS-day4" />
 <meta property="og:image"
   content="https://lxyblog.dpdns.org/">
 <meta property="og:image:width" content="2048">
 <meta property="og:image:height" content="1024">
 
-<meta property="article:published_time" content="2025-11-18 12:00:00 &#43;0800 CST" />
+<meta property="article:published_time" content="2025-11-20 12:00:00 &#43;0800 CST" />
 
 
 
@@ -144,19 +144,19 @@
                   </span>
                   <span class="path-divider">/</span>
                   <strong class="css-truncate css-truncate-target mr-1" style="max-width: 410px">
-                    <a href="https://lxyblog.dpdns.org/post/html/html-day-2/">HTML-day2</a>
+                    <a href="https://lxyblog.dpdns.org/post/css/css-day4/">CSS-day4</a>
                   </strong>
                 </h1>
                 <div class="note m-0">
-                  Created <relative-time datetime="Tue, 18 Nov 2025 12:00:00 &#43;0800"
+                  Created <relative-time datetime="Thu, 20 Nov 2025 12:00:00 &#43;0800"
                     class="no-wrap">
-                    Tue, 18 Nov 2025 12:00:00 &#43;0800</relative-time>
+                    Thu, 20 Nov 2025 12:00:00 &#43;0800</relative-time>
 
                   
                   <span class="file-info-divider"></span>
-                  Modified <relative-time datetime="Wed, 19 Nov 2025 13:54:33 &#43;0800"
+                  Modified <relative-time datetime="Thu, 20 Nov 2025 20:21:33 &#43;0800"
                     class="no-wrap">
-                    Wed, 19 Nov 2025 13:54:33 &#43;0800</relative-time>
+                    Thu, 20 Nov 2025 20:21:33 &#43;0800</relative-time>
                   
                 </div>
               </div>
@@ -186,7 +186,7 @@
                         </div>
                       </div>
                     </details-menu>
-                      757 Words
+                      1016 Words
                     
 
                   </div>
@@ -199,75 +199,111 @@
 
               <div class="Box-body px-5 pb-5" style="z-index: 1">
                 <article class="markdown-body entry-content container-lg"><p>大概内容：
-列表、标签语法、综合案例
+层复合选择器、CSS特性、背景属性、显示模式
 <!-- raw HTML omitted --></p>
 <!-- raw HTML omitted -->
-<h1 id="一列表标签">（一）、列表标签</h1>
-<pre><code>1.作用：布局内容排列整齐的区域
-2.分类：无序、有序、定义
-3.无序列表：ul 嵌套多个 li ，内容不限制
-4.有序列表：ol 嵌套多个 li ，内容不限制
-5.定义列表：dl 只能嵌套多个 dt 和 dd ，dt和dd中不限制内
+<h1 id="一复合选择器">（一）、复合选择器</h1>
+<pre><code>定义：两个或多个基础选择器通过不同方式组合而成
+
+1.后代选择器
+	写法：父选择器 子选择器{CSS属性}，父子之间为空格
+		 &lt;style&gt;
+		        div span {color: red;}
+		&lt;/style&gt;
+2.子代选择器
+	写法：父子之间为 &gt; 符号
+		 &lt;style&gt;
+		        div&gt;span {color: red;}
+		&lt;/style&gt;
+
+3.并集选择器
+	作用：选中多组标签设置相同样式
+	写法：选择器1，选择器2，...，选择器N{CSS属性}，选择器之间用逗号隔开
+	&lt;!-- 并集选择器 --&gt;
+		&lt;style&gt;
+			span, p {font-size: 20px;}
+		&lt;/style&gt;
+
+4.交集选择器
+	作用：选择同时满足多个条件的元素
+	写法：选择器1选择器2{CSS属性}，选择器之间没有符号
+		&lt;style&gt;
+		        p.box {background-color: yellow;}
+		&lt;/style&gt;
+
+5.伪类选择器
+	作用:选中元素的某个状态设置样式（鼠标悬停时变化）
+	写法：选择器：hover{CSS属性}
+		   &lt;style&gt;
+			   a:hover {color: orange;}
+		   &lt;/style&gt;
+	注意：任何标签都可以这么用
+	拓展：超链接的四个状态（必须按以下顺序）
+			link：访问前
+			visited：访问后
+			hover：鼠标悬停
+			active：点击时
 </code></pre>
-<!-- raw HTML omitted -->
-<h2 id="标签-table-嵌套-tr-tr-嵌套-tdth">标签： table 嵌套 tr ,tr 嵌套 td/th</h2>
-<pre><code>1.table：表格
-	1.border：边框粗细
-2.tr：行
-3.th：表头单元格
-4.td：内容单元格
+<h1 id="二css特性">（二）、CSS特性</h1>
+<pre><code>CSS特性：化简代码/定位问题，并解决问题
+
+1.继承性
+	子级（未定义的属性）默认继承父级的文字控制属性
+
+2.层叠性
+	特点：
+		相同的属性，后面的覆盖前面的
+		不同的属性叠加
+
+3.优先级
+	一个标签使用了多种选择器时，基于不同种类选择器的匹配规则
+	规则：选中标签的范围越大，优先级越低
+	公式：通配符&lt;标签&lt;类&lt;id&lt;行内样式&lt;!important
+	继承权重最低
 </code></pre>
-<h2 id="表格结构标签把内容划分区域">表格结构标签：把内容划分区域</h2>
-<pre><code>1.thead：表格头部
-2.tbody：表格主题
-3.tfoot：表格底部
+<h1 id="三emmet写法">（三）、Emmet写法</h1>
+<pre><code>代码的简写方式，输入缩写
+	1.div+p：同级标签
+	2.div&gt;p：父子级标签
+	3.span*3：多个相同标签
+	4.div{内容}：有内容的标签
+	5.标签名.类名：类选择器
+	6.标签名#id名：id选择器
 </code></pre>
-<h2 id="合并单元格合并同类信息">合并单元格：合并同类信息</h2>
-<pre><code>1.跨行合并：rowspan
-2.跨列合并：colspan
+<h1 id="四背景属性">（四）、背景属性</h1>
+<pre><code>1.背景图：装饰性图片
+	background-color：背景色
+	background-image：背景图
+	background-repeat：背景图平铺方式
+	background-position：背景图位置
+	background-size：背景图缩放
+	background-attachment：背景图固定
+	background：背景图复合属性
 </code></pre>
-<!-- raw HTML omitted -->
-<h1 id="三表单">（三）、表单</h1>
-<h2 id="作用收集用户信息">作用：收集用户信息</h2>
-<!-- raw HTML omitted -->
-<h3 id="inputplacehplder文字提示输入">input：placehplder=&ldquo;文字&rdquo;，提示输入</h3>
-<h3 id="inputnamelabel属于哪一个label">input：name=&ldquo;label&rdquo;，属于哪一个label</h3>
-<h3 id="inputchecked-默认值">input：checked ，默认值</h3>
-<h3 id="inputmultiple-多文件上传">input：multiple ，多文件上传</h3>
-<h2 id="下拉菜单-select">下拉菜单 select</h2>
-<h3 id="select嵌套多个option">select嵌套多个option</h3>
-<pre><code>1.option:selected ，默认选择
+<h1 id="五显示模式">（五）、显示模式</h1>
+<pre><code>	作用：根据标签的显示模式选择合适的标签展示内容
+
+1.块级
+	独占一行
+	宽度默认是父级的100%
+	添加宽高属性生效
+
+2.行内元素
+	一行共存多个
+	尺寸由内容撑开
+
+3.行内块元素
+	一行共存多个
+	默认尺寸由内容撑开
+	加宽高生效
+
+4.转换显示模型
+	属性名：display
+	属性值：block、line-block
 </code></pre>
-<h2 id="文本域-textareacss设计文本尺寸">文本域 textarea（css设计文本尺寸）</h2>
-<pre><code>1.rows
-2.cols
-3.右下角拖拽功能禁用
-</code></pre>
-<h2 id="标签-label">标签 label</h2>
-<pre><code>绑定文字和表单控件的关系，增大表单控件的范围
-for 对应的为 id
-</code></pre>
-<h2 id="按钮-button">按钮 button</h2>
-<h3 id="buttontype属性这三个属性也能用input实现">button：type=&ldquo;属性&rdquo;，这三个属性也能用input实现</h3>
-<pre><code>1.submit ，提交按钮
-2.reset ，重置按钮
-3.button ，普通按钮，配合js使用
-</code></pre>
-<h3 id="buttonvalue文字">button：value=&ldquo;文字&rdquo;</h3>
-<h3 id="放入form-action地址form标签才能使用">放入（form action=“地址”）（/form）标签才能使用</h3>
-<h1 id="四div和span标签和字体实体">（四）、div和span标签和字体实体</h1>
-<h2 id="无语义布局网页结构">无语义，布局网页结构</h2>
-<pre><code>1.div：独占一行，又叫大盒子
-2.span：不换行，又叫小盒子
-</code></pre>
-<h2 id="字符实体">字符实体</h2>
-<pre><code>1.&amp;nbsp：空格
-2.&amp;lt：&lt;
-3.&amp;gt: &gt;
-</code></pre>
-<h1 id="五自己找一个网站做综合案例">（五）、自己找一个网站做综合案例</h1>
-<p>请关注公众号获取更多信息！！！
-<img src="../../../assets/img/wechat.jpg" alt="alt text"></p></article>
+<h1 id="六综合案例">（六）、综合案例</h1>
+<pre><code>热词、banner效果
+</code></pre></article>
               </div>
             </div>
           </div>
