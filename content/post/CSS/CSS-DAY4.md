@@ -3,7 +3,7 @@
 title: "CSS-day4"
 date: 2025-11-20T12:00:00+08:00
 draft: false
-summary: "这是我第一天学习CSS。"
+summary: "这是我第二天学习CSS。"
 ---
 
 大概内容：
@@ -115,3 +115,7 @@ summary: "这是我第一天学习CSS。"
 
 # （六）、综合案例
 	热词、banner效果
+
+请关注公众号获取更多信息！！！
+![alt text](./wechat.jpg)
+<img src="./wechat.jpg" alt="微信公众号：茉莉智元" width="200" height="200">

@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>茉莉智元</title>
-    <link>https://lxyblog.dpdns.org/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on 茉莉智元</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 20 Nov 2025 20:21:33 +0800</lastBuildDate>
-    <atom:link href="https://lxyblog.dpdns.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 20 Nov 2025 20:33:12 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CSS-day4</title>
-      <link>https://lxyblog.dpdns.org/post/css/css-day4/</link>
+      <link>http://localhost:1313/post/css/css-day4/</link>
       <pubDate>Thu, 20 Nov 2025 12:00:00 +0800</pubDate>
-      <guid>https://lxyblog.dpdns.org/post/css/css-day4/</guid>
+      <guid>http://localhost:1313/post/css/css-day4/</guid>
       <description>&lt;p&gt;大概内容：&#xA;层复合选择器、CSS特性、背景属性、显示模式&#xA;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;</description>
     </item>
     <item>
       <title>CSS-day3</title>
-      <link>https://lxyblog.dpdns.org/post/css/css-day3/</link>
+      <link>http://localhost:1313/post/css/css-day3/</link>
       <pubDate>Wed, 19 Nov 2025 12:00:00 +0800</pubDate>
-      <guid>https://lxyblog.dpdns.org/post/css/css-day3/</guid>
+      <guid>http://localhost:1313/post/css/css-day3/</guid>
       <description>&lt;p&gt;大概内容：&#xA;层叠样式表CSS的引入方式、选择器、调节工具等&#xA;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;</description>
     </item>
     <item>
       <title>HTML-day2</title>
-      <link>https://lxyblog.dpdns.org/post/html/html-day-2/</link>
+      <link>http://localhost:1313/post/html/html-day-2/</link>
       <pubDate>Tue, 18 Nov 2025 12:00:00 +0800</pubDate>
-      <guid>https://lxyblog.dpdns.org/post/html/html-day-2/</guid>
+      <guid>http://localhost:1313/post/html/html-day-2/</guid>
       <description>&lt;p&gt;大概内容：&#xA;列表、标签语法、综合案例&#xA;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;</description>
     </item>
     <item>
       <title>HTML-day1</title>
-      <link>https://lxyblog.dpdns.org/post/html/html-day-1/</link>
+      <link>http://localhost:1313/post/html/html-day-1/</link>
       <pubDate>Mon, 17 Nov 2025 12:00:00 +0800</pubDate>
-      <guid>https://lxyblog.dpdns.org/post/html/html-day-1/</guid>
+      <guid>http://localhost:1313/post/html/html-day-1/</guid>
       <description>&lt;p&gt;大概内容：&#xA;准备开发环境、标签语法、综合案例&#xA;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;</description>
     </item>
   </channel>
